@@ -10,5 +10,5 @@
  **/
 
 
-
+#define LANG_ENABLE (LANG_SPN)
 #endif /* CONFIG_CUSTOM_DEFINES_PRE_HPP */
