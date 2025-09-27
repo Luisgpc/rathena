@@ -24,6 +24,9 @@
 
 set( CMAKE_LEGACY_CYGWIN_WIN32 0 )
 cmake_minimum_required( VERSION 3.13 )
+if(MSVC AND NOT CMAKE_GENERATOR_PLATFORM)
+    set(CMAKE_GENERATOR_PLATFORM x64 CACHE STRING "" FORCE)
+endif()
 project( rAthena )
 if( CYGWIN )
 	unset( WIN32 )
