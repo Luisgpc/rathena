@@ -1,0 +1,7 @@
+.git
+.gitmodules
+rathena-docker/mysql_data
+rathena-docker/mysql_data/**
+build
+CMakeCache.txt
+CMakeFiles
