@@ -39,7 +39,7 @@
 
 using namespace rathena;
 
-std::string cfgFile = "inter_athena.conf"; ///< Inter-Config file
+std::string cfgFile = "inter_athena.yml"; ///< Inter-Config file
 InterServerDatabase interServerDb;
 
 #define WISDATA_TTL (60*1000)	//Wis data Time To Live (60 seconds)
